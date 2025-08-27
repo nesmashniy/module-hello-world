@@ -2,6 +2,7 @@ package hello_world
 
 import "fmt"
 
-func HelloWorld() {
-	fmt.Println("Hello, World! ")
+func HelloWorld() string {
+	return "Hello world"
+
 }
