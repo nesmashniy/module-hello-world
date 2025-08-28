@@ -1,7 +1,7 @@
 package hello_world
 
 
-func HelloWorld() string {
-	return "Hello world"
+func HelloWorld(name string) string {
+	return "Hello world " + name
 
 }
